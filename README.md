@@ -55,7 +55,7 @@ Possuir a ferramenta Excel instalada, lembrando que a planilha está otimizada s
 
 ## Como usar
 
-Primeiramente clique no botão [ATUALIZAR] para dar início a execução do programa, será aberta uma janela pedindo para que forneça a senha do roteador/modem e clique no botão [Acessar], possibilitando assim o acesso ao sistema dele, após isso a planilha exibira uma outra janela indicando que a conexão com o aparelho está feita e mostrara o botão [Pegar Dados], clicando nele a planilha processara as informações e exportara para o Excel. Com o termino do processamento será liberado o botão [SAIR] para fechar o programa.
+Primeiramente clique no botão *[ATUALIZAR]* para dar início a execução do programa, será aberta uma janela pedindo para que forneça a senha do roteador/modem e clique no botão *[Acessar]*, possibilitando assim o acesso ao sistema dele, após isso a planilha exibira uma outra janela indicando que a conexão com o aparelho está feita e mostrara o botão *[Pegar Dados]*, clicando nele a planilha processara as informações e exportara para o Excel. Com o termino do processamento será liberado o botão *[SAIR]* para fechar o programa.
 
 Agora basta verificar os dados exportados, encontrando os aparelhos fisicamente que estão conectados na rede local pelo MAC ou IP dos aparelhos relatados, caso encontre realize o cadastro dele na planilha colocando o seu endereço MAC e a quem o aparelho pertence. Assim nas próximas vezes será possível usar os equipamentos já cadastrados para liberar o uso do campo de pesquisa, que faz uma busca do endereço MAC fornecido na exportação com os endereços MAC já cadastrados.
 
@@ -89,6 +89,7 @@ Agora basta verificar os dados exportados, encontrando os aparelhos fisicamente 
         <br>
     <em>Ao final do processo de exportação a planilha exibira outra janela indicando que a conexão com o modem/roteador foi fechada e exibira o botão de sair.</em>
 </p>
+<br>
 
 <p align="center" width="100%">
     <img width="33%" src="https://i.ibb.co/4fDR2pf/mac7.jpg"> 
