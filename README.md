@@ -31,10 +31,10 @@
 ## Sobre o projeto
 
 <p align="center" width="100%">
-    <img width="33%" src="https://i.ibb.co/gFDn4jj/1.jpg"> 
+    <img width="33%" src="https://i.ibb.co/YQvKm2c/mac.jpg"> 
 </p>
 
-A planilha foi desenvolvida utilizando o Excel em conjunto com a codagem em VBA, focando em solucionar uma problemática de organização dentro de uma pequena empresa, seguindo o caso de uso dela e as suas necessidades. Os processos da planilha foram automatizados pela criação de formulários e formulas para facilitar a criação e controle dos clientes da empresa. Foi criado também um dashboard para comtemplar a função de um painel de análise financeira para a empresa.
+A planilha foi desenvolvida para automatizar o processo de controle e registro dos usuários que estavam conectados em minha rede residencial (LAN e WLAN), ou seja a tabela DHCP, permitindo assim uma maior facilidade de acesso a essa informação. A programação foi construída para que a planilha conseguisse se conectar ao roteador/modem central, e capturar as informações necessárias, levando em conta que foi programada para o layout do roteador/modem fornecido pela empresa provedora de banda larga, já que é uma automação com foco em um problema local e singular. Para o uso em outros modelos basta alterar alguns parâmetros dentro do código. 
 
 ### Desenvolvido com
 
@@ -46,53 +46,54 @@ Esse projeto foi desenvolvido utilizando a ferramenta Excel do pacote Office, em
 
 ## Como começar
 
-Basta realizar o download da planilha e abrir ela normalmente, aceitando os acessos e utilização de macros.
+Basta realizar o download da planilha e abrir ela normalmente, aceitando os acessos e utilização de macros, **é necessário o conhecimento em programação para alterar o código de acordo com seu ambiente.**
 
 ### Pré-requisitos
 
-Possuir a ferramenta Excel instalada, lembrando que a planilha está otimizada somente para o sistema operacional Windows (até o momento)
+Possuir a ferramenta Excel instalada, lembrando que a planilha está otimizada somente para o sistema operacional Windows (até o momento). Lembrando novamente que **é necessário o conhecimento em programação para alterar o código de acordo com seu ambiente.**
+
 
 ## Como usar
 
-A utilização da planilha está diretamente ligada as ações dos botões disponíveis na parte superior da planilha.
+Primeiramente clique no botão [ATUALIZAR] para dar início a execução do programa, será aberta uma janela pedindo para que forneça a senha do roteador/modem e clique no botão [Acessar], possibilitando assim o acesso ao sistema dele, após isso a planilha exibira uma outra janela indicando que a conexão com o aparelho está feita e mostrara o botão [Pegar Dados], clicando nele a planilha processara as informações e exportara para o Excel. Com o termino do processamento será liberado o botão [SAIR] para fechar o programa.
 
-- <b>Cadastrar:</b> Abre o formulário de cadastro de novos clientes
-- <b>Excluir:</b> Depois de selecionar uma linha (cliente) para remover, basta clicar sobre o botão e aceitar a remoção
-- <b>Descontos:</b> Abre o formulário para realizar a simulação dos preços em relação aos possíveis descontos
-- <b>Atualizar valores:</b> Permite a alteração do valor dos produtos e serviços fornecidos
-- <b>Atualizar Dashboard:</b> Realiza a atualização dos valores da Aba (planilha) Dashboard, levando em consideração as tabelas dinâmicas
-- <b>Pesquisar:</b> Utilize a caixa de pesquisa para encontrar um cliente
-- <b>Setas para mudança de abas:</b> Utilize as setas para alterar entre as planilhas
-- <b>Condicionais:</b> A planilha contém várias condicionais para possibilitar um controle e visualização melhor de determinados pontos importantes necessários no uso da empresa.
+Agora basta verificar os dados exportados, encontrando os aparelhos fisicamente que estão conectados na rede local pelo MAC ou IP dos aparelhos relatados, caso encontre realize o cadastro dele na planilha colocando o seu endereço MAC e a quem o aparelho pertence. Assim nas próximas vezes será possível usar os equipamentos já cadastrados para liberar o uso do campo de pesquisa, que faz uma busca do endereço MAC fornecido na exportação com os endereços MAC já cadastrados.
+
 
 ## Imagens
 
 
 <p align="center" width="100%">
-    <img width="33%" src="https://i.ibb.co/Cw59LSg/2.jpg"> 
+    <img width="33%" src="https://i.ibb.co/q9b4rqG/mac2.jpg"> 
     <br>
-    <em>Formulário de simulação de desconto.</em>
+    <em>Após clicar no botão [ATUALIZAR] a planilha exibe essa janela pedindo que o usuário forneça a senha de acesso ao aparelho (roteador/modem)</em>
 </p>
  <br> 
  
 <p align="center" width="100%">
-    <img width="33%" src="https://i.ibb.co/dJvdgGF/3.jpg"> 
+    <img width="33%" src="https://i.ibb.co/zmbGnkc/mac3.jpg"> 
         <br>
-    <em>Formulário de cadastro de valores de produtos e serviços.</em>
+    <em>Se a conexão for realizada com sucesso a aplicação exibira uma janela mostrando que está em contato com o aparelho e exibira o botão [Pegar Dados] para coletar as informações de DHCP.</em>
 </p> 
  <br>
  
 <p align="center" width="100%">
-    <img width="33%" src="https://i.ibb.co/q7nXxNg/4.jpg"> 
+    <img width="33%" src="https://i.ibb.co/hcBzMq2/mac5.jpg"> 
         <br>
-    <em>Campo de pesquisa de cliente e seta para mudança de planilha</em>
+    <em>Se o sistema conseguir exportar para o Excel a tabela de DHCP aparecera uma mensagem confirmando o sucesso da ação e os dados já apareceram ao fundo na planilha.</em>
 </p>
  <br>
  
 <p align="center" width="100%">
-    <img width="33%" src="https://i.ibb.co/TKhQ1Qr/5.jpg"> 
+    <img width="33%" src="https://i.ibb.co/D10JgT1/mac6.jpg"> 
         <br>
-    <em>Dashboard financeiro</em>
+    <em>Ao final do processo de exportação a planilha exibira outra janela indicando que a conexão com o modem/roteador foi fechada e exibira o botão de sair.</em>
+</p>
+
+<p align="center" width="100%">
+    <img width="33%" src="https://i.ibb.co/4fDR2pf/mac7.jpg"> 
+        <br>
+    <em>A planilha também tem um campo de pesquisa que faz uma busca (PROCV) na tabela DHCP exportada com os usuários já conhecidos e cadastrados, permitindo o controle de quem está acessando sua rede local.</em>
 </p>
 
 ## Contato
