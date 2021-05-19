@@ -69,6 +69,7 @@ Agora basta verificar os dados exportados, encontrando os aparelhos fisicamente 
     <em>Após clicar no botão [ATUALIZAR] a planilha exibe essa janela pedindo que o usuário forneça a senha de acesso ao aparelho (roteador/modem)</em>
 </p>
  <br> 
+ ##
  
 <p align="center" width="100%">
     <img width="33%" src="https://i.ibb.co/zmbGnkc/mac3.jpg"> 
@@ -76,6 +77,7 @@ Agora basta verificar os dados exportados, encontrando os aparelhos fisicamente 
     <em>Se a conexão for realizada com sucesso a aplicação exibira uma janela mostrando que está em contato com o aparelho e exibira o botão [Pegar Dados] para coletar as informações de DHCP.</em>
 </p> 
  <br>
+ ##
  
 <p align="center" width="100%">
     <img width="33%" src="https://i.ibb.co/hcBzMq2/mac5.jpg"> 
@@ -83,6 +85,7 @@ Agora basta verificar os dados exportados, encontrando os aparelhos fisicamente 
     <em>Se o sistema conseguir exportar para o Excel a tabela de DHCP aparecera uma mensagem confirmando o sucesso da ação e os dados já apareceram ao fundo na planilha.</em>
 </p>
  <br>
+ ##
  
 <p align="center" width="100%">
     <img width="33%" src="https://i.ibb.co/D10JgT1/mac6.jpg"> 
