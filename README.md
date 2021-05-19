@@ -68,7 +68,6 @@ Agora basta verificar os dados exportados, encontrando os aparelhos fisicamente 
     <br>
     <em>Após clicar no botão [ATUALIZAR] a planilha exibe essa janela pedindo que o usuário forneça a senha de acesso ao aparelho (roteador/modem)</em>
 </p>
- <br> 
  <hr>
  
 <p align="center" width="100%">
@@ -76,7 +75,6 @@ Agora basta verificar os dados exportados, encontrando os aparelhos fisicamente 
         <br>
     <em>Se a conexão for realizada com sucesso a aplicação exibira uma janela mostrando que está em contato com o aparelho e exibira o botão [Pegar Dados] para coletar as informações de DHCP.</em>
 </p> 
- <br>
  <hr>
  
 <p align="center" width="100%">
@@ -84,7 +82,6 @@ Agora basta verificar os dados exportados, encontrando os aparelhos fisicamente 
         <br>
     <em>Se o sistema conseguir exportar para o Excel a tabela de DHCP aparecera uma mensagem confirmando o sucesso da ação e os dados já apareceram ao fundo na planilha.</em>
 </p>
- <br>
  <hr>
  
 <p align="center" width="100%">
@@ -92,7 +89,7 @@ Agora basta verificar os dados exportados, encontrando os aparelhos fisicamente 
         <br>
     <em>Ao final do processo de exportação a planilha exibira outra janela indicando que a conexão com o modem/roteador foi fechada e exibira o botão de sair.</em>
 </p>
-<br>
+<hr>
 
 <p align="center" width="100%">
     <img width="33%" src="https://i.ibb.co/4fDR2pf/mac7.jpg"> 
@@ -122,8 +119,3 @@ Lucas Teixeira - [Linkedin](https://www.linkedin.com/in/lucastmp/)
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/lucastmp/
 <!-- MARKDOWN IMAGES -->
-[product-screenshot]: https://i.ibb.co/gFDn4jj/1.jpg
-[product-screenshot-desconto]: https://i.ibb.co/Cw59LSg/2.jpg
-[product-screenshot-atualizar]: https://i.ibb.co/dJvdgGF/3.jpg
-[product-screenshot-pesquisa]: https://i.ibb.co/q7nXxNg/4.jpg
-[product-screenshot-condicional]: https://i.ibb.co/TKhQ1Qr/5.jpg
